@@ -1,0 +1,48 @@
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background:url("images/pexels-faaiq-ackmerd-1025469.jpg") no-repeat;
+}*/
+#bigBox{
+   /* position: absolute;*/
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 20px 50px;
+    background-color: rgb(0,0,0);
+    width: 200px;
+    height: 300px;
+    border-radius:10px;
+    text-align: center;
+}
+
+#bigBox h1{
+    color: #ffffff;
+}
+
+#bigBox .inputBox{
+    /*相对于h1标题下移50px*/
+    margin-top: 50px;
+
+}
+
+#bigBox .inputBox .inputText{
+    margin-top: 20px;
+}
+
+#bigBox .inputBox .inputText input{
+    border: 0;
+    padding: 10px 10px;
+    border-bottom: 1px solid white;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+#bigBox .inputBox .inputButton{
+    margin-top: 20px;
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+    border: 0;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+}
